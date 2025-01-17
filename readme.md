@@ -1,3 +1,0 @@
-# Crukes
-
-![some random image]
