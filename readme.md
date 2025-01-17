@@ -1,3 +1,3 @@
 # Crukes
 
-1[some random image]
+![some random image]
