@@ -15,39 +15,44 @@
       </ul>
     </nav>
 
-    <h1>containers and forms</h1>
-    <form action="index.html" method="get">
+    <h1>Join a Social Network</h1>
+    <form
+      action="https://wp.zybooks.com/form-viewer.php"
+      method="post"
+      enctype="multipart/form-data"
+    >
       <div>
-        <label for="favoriteSnack">Favorite Snack:</label>
+        <label for="fullName">Full name:</label>
         <input
           type="text"
-          name="favoriteSnack"
-          id="favoriteSnack"
-          placeholder="Skittles"
+          name="fullName"
+          id="fullName"
+          placeholder="John Doe"
           required
         />
       </div>
 
       <div>
-        <label for="leastfavoriteSnack">Least Favorite Snack</label>
+        <label for="email">Email address:</label>
         <input
           type="text"
-          name="leastfavoriteSnack"
-          id="leastfavoriteSnack"
-          value="Harry Potter Jelly Beans"
+          name="email"
+          id="email"
+          value="johndoes@example.com"
+          required
         />
       </div>
 
       <div>
-        <label for="explain">Explain yourself</label>
-        <textarea name="explain" id="explain"></textarea>
+        <label for="about">About you:</label>
+        <textarea name="about" id="about" cols="50" rows="3"></textarea>
       </div>
 
       <div>
-        <label for="snackcolormood">Snack Color Mood</label>
-        <input type="color" name="snackcolormood" id="snackcolormood" />
+        <label for="picture">Photo:</label>
+        <input name="picture" id="picture" type="file" accept="image/*" />
       </div>
-      <input type="submit" value="submit snacks" />
+      <input type="submit" id="" value="Submit" />
     </form>
   </body>
 </html>
