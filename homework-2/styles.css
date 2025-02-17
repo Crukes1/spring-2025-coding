@@ -1,0 +1,42 @@
+body,html{
+    height: 100%;
+    text-align: center;
+}
+.hero-image{
+    background-image:url(11-16-1966_Point_Pleasant_Register.jpg) ;
+    height: 50%;
+    background-position;display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+h1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+h2{
+   text-align: center; 
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+h3{
+  text-align: center; 
+  display: flex; 
+  align-items: center;
+  justify-content: space-evenly;
+}
+p{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.image{
+    display: flex;
+}
