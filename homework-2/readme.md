@@ -12,3 +12,4 @@
 ### Live Link
 
 [Mothman the Legend](https://crukes1.github.io/spring-2025-coding/homework2)
+(https://github.com/Crukes1/spring-2025-coding/tree/homework2/homework-2)
