@@ -40,3 +40,10 @@ p{
 .image{
     display: flex;
 }
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
